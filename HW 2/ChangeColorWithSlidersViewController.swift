@@ -80,7 +80,7 @@ class ChangeColorWithSlidersViewController: UIViewController {
     }
     
     @IBAction func doneTapped() {
-        delegate.changeColor(firstSlider: CGFloat(redSlider.value), secondSlider: CGFloat(greenSlider.value), thirdSlider: CGFloat(blueSlider.value)) ?? 0.0
+        delegate.changeColor(firstSlider: CGFloat(redSlider.value), secondSlider: CGFloat(greenSlider.value), thirdSlider: CGFloat(blueSlider.value))
          dismiss(animated: true)
         
       
